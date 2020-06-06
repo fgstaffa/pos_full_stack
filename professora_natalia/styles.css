@@ -1,0 +1,17 @@
+.caixa{
+    background-color: blue;
+    width: 400px;
+    height: 100px;
+    margin: 10px 10px 10px 200px;
+    color: white;
+    padding: 20px;
+    border: 15px black solid;
+}
+
+body *{
+    display: inline-block;
+}
+
+#caixa-2{
+    float: left;
+}

@@ -1,0 +1,32 @@
+<header> cabeçalho
+<main> conteúdo
+<footer> rodapé
+
+dentro do css para selecionar todos os itens
+colocar *
+ex. *{
+
+}
+
+o ideal é sempre começar o css com
+body{
+    margin:0;
+}
+
+formatação importante para box não ficar defeituoza
+*{
+    box sizing: box-border;
+}
+
+tag float(flutuar) no css
+importante quando quiser parar a flutuação
+utilizar a tag clear:both; no proximo elemento
+
+relative precisa distanciar do bottom
+absolute precisa distanciar do topo
+
+tirar efeito link
+
+jogo
+flexbox froggy
+flexbox defense

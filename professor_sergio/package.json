@@ -1,0 +1,17 @@
+{
+  "name": "aula16052020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fgstaffa@bitbucket.org/fgstaffa/aula16052020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/fgstaffa/aula16052020#readme"
+}
