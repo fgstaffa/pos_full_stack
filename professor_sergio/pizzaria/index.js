@@ -1,25 +1,25 @@
-const pizzas = [
+// const pizzas = [
 
-    {
-        nome: 'Pepperoni',
-        valor: 55.3,
-        ingredientes: ['mussarela', 'pepperoni', 'manjericao'],
-        destaque: true
-    },
-    {
-        nome: 'Mussarela',
-        valor: 25,
-        ingredientes: ['mussarela'],
-        destaque: false
-    },
-    {
-        nome: 'Quatro Queijos',
-        valor: 40.3,
-        ingredientes: ['mussarela', 'gorgonzola', 'catupiry', 'parmesão'],
-        destaque: true
-    }
+//     {
+//         nome: 'Pepperoni',
+//         valor: 55.3,
+//         ingredientes: ['mussarela', 'pepperoni', 'manjericao'],
+//         destaque: true
+//     },
+//     {
+//         nome: 'Mussarela',
+//         valor: 25,
+//         ingredientes: ['mussarela'],
+//         destaque: false
+//     },
+//     {
+//         nome: 'Quatro Queijos',
+//         valor: 40.3,
+//         ingredientes: ['mussarela', 'gorgonzola', 'catupiry', 'parmesão'],
+//         destaque: true
+//     }
 
-]
+// ]
 
 // Imprime todas as pizzas
 // console.log(pizzas)
@@ -66,3 +66,14 @@ for(let p of pizzas){
 // for (let campo in pizzas){
 //     console.log(`${pizzas[campo].nome} : ${pizzas[campo].valor}`)
 // }
+
+
+
+
+const cpf = require("@fnando/cpf/commonjs")
+
+let testeCpf = cpf.isValid('348.961.008.32')
+console.log(testeCpf)
+
+let novoCpf = cpf.generate()
+console.log(novoCpf)
