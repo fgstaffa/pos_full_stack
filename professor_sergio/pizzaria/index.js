@@ -70,10 +70,34 @@ for(let p of pizzas){
 
 
 
-const cpf = require("@fnando/cpf/commonjs")
+// const cpf = require("@fnando/cpf/commonjs")
 
-let testeCpf = cpf.isValid('348.961.008.32')
-console.log(testeCpf)
+// let testeCpf = cpf.isValid('348.961.008.32')
+// console.log(testeCpf)
 
-let novoCpf = cpf.generate()
-console.log(novoCpf)
+// let novoCpf = cpf.generate()
+// console.log(novoCpf)
+
+const express = require('express')
+const app = express()
+
+// Importar roteadores
+const PizzasRouter = require('./routers/PizzasRouters')
+
+// Utilizar roteadores
+app.use(PizzasRouter)
+
+app.listen(3001)
+
+// app.get("/",(req,res)=>{
+//     res.send(pizzas)
+// })
+
+// app.get('/usuarios',(req,res)=>{
+//     res.send('Devia retornar uma lista de usuario')
+// })
+
+// app.get('/clientes', (req,res)=>{
+//     res.send('Lista de clientes...')
+// })
+
